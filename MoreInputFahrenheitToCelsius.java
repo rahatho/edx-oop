@@ -6,7 +6,7 @@ public class MoreInputFahrenheitToCelsius {
 		System.out.print("Enter a Fahrenheit value and the day of week: ");
 		int fahrenheit = input.nextInt();
 
-		String day = input.nextLine();
+		String day = input.nextLine().trim();
 
 		double celsius = (5 / 9.0) * (fahrenheit - 32);
 
